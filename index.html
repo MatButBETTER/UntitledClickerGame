@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Clicker Game</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: #0f0f0f;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        button {
+            padding: 15px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background: #4caf50;
+            color: white;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #45a049;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Download Untitled Clicker Game Launcher</h1>
+    <button onclick="downloadLauncher()">Download</button>
+</div>
+
+<script>
+function downloadLauncher() {
+    window.location.href = "launcher.exe";
+}
+</script>
+
+</body>
+</html>
